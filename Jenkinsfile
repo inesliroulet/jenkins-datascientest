@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     stages {
-        stage("Datascientest Variables") {
+        stage("Datascientest Environment Variables") {
             steps {
                 sh "printenv"
             }
